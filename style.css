@@ -20,12 +20,15 @@
     --btn2-color: #7132C1;
     --circle-color: #7D8193;
 }
+body{
+    background: var(--background-color);
+}
 
 .container{
     margin: 0 auto;
-    background: var(--background-color);
-    min-height: 100vh;
-    background: var(--background-color);
+    width: 100%;
+    max-width: 1440px;
+    padding: 0 0 50px 0;
 }
 
 .cards2-c{
